@@ -332,6 +332,19 @@ textarea:focus {
     color: rgb(25, 25, 25);
 }
 
+button[type="submit"] {
+    width: 100%;
+    max-width: 100%;
+    background-color: rgb(54, 121, 46);
+    color: white;
+    padding: 0.5rem;
+    align-items: center;
+}
+
+button[type="submit"]:hover {
+    background-color:rgb(25, 25, 25);
+}
+
 /*image in the contact page*/
 .contact-img {
     display: none; /*hide on mobile first*/
