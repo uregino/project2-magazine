@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="/images/favicon-mug.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <!-- navigation -->
+    <nav>
+            <a href="/pages/index.html">
+                <figure class="site-home-icon">
+                    <img src="/images/mug-hot-solid.svg" alt="home icon">
+                </figure>
+            </a>
+
+            <ul>
+                <li><a href="/pages/index.html">Home</a></li>
+                <li><a href="/pages/articles.html">Articles</a></li>
+                <li><a href="/pages/contact.html">Contact</a></li>
+                <li><a href="/pages/sources.html">Sources</a></li>
+            </ul>
+    </nav>
+
+    <!-- header -->
+    <header>
+        <div class="index-header">
+            <h1>Contact Us</h1>
+            <p class="description">
+                Have questions or comments about matcha? Want to write for our blog? Get in touch with us!
+            </p>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main>
+        <div class="contact">
+            <form action="https://formspree.io/f/mblggwrl" method="POST">
+                <!-- name -->
+                <label>
+                    Name:
+                </label>
+                    <input type="text" name="name" placeholder="Johnny Appleseed" required>
+
+                    <!-- email -->
+                <label>
+                    Your email:
+                    <input type="email" name="email" placeholder="name@email.com" required>
+                </label>
+
+                <!-- select topic -->
+                <label>Topic:</label>
+                <select name="contact-reason" id="type">
+                    <option value="" disabled selected>Select type</option>
+                    <option value="write-for-us">Write for us</option>
+                    <option value="feedback">Give Comments or Feedback</option>
+                    <option value="report-issue">Report a Technical Issue</option>
+                    <option value="partnership">Partnership or Collaboration Inquiry</option>
+                    <option value="other">Other (Please Specify)</option>
+                </select>
+
+                <!-- text box -->
+                <label>
+                    Your message:
+                    <textarea name="message" placeholder="Your message here..."></textarea>
+                </label>
+
+                <button type="submit">SUBMIT</button>
+            </form>
+
+            <figure class="contact-img">
+                <img src="/images/pexels-cup-of-couple-8474151-optimized.jpg" alt="Cup and a Bowl with a Mortar on the Table ">
+            </figure>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div>
+            <figure class="site-home-icon">
+                <img src="/images/mug-hot-solid.svg" alt="home icon">
+            </figure>
+            <p class="footer-title">Matcha Chronicles</p>
+        </div> 
+            
+        <p class="footer-text">
+                Discover the world of matcha, its rich history, health benefits, and culinary versatility.
+        </p>
+            
+        <div class="copyright">
+            &copy; Matcha Chronicles, 2025
+        </div>  
+    </footer>
+    
+</body>
+</html>
