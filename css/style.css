@@ -27,7 +27,7 @@ p {
 
 /* -- NAV -- */
 nav {
-    background-image: url("../images/pexels-nipananlifestyle-com-625927-1581484-optimized.jpg");
+    background-image: url("/images/pexels-nipananlifestyle-com-625927-1581484-optimized.jpg");
     background-size: cover; /*make image fill the space*/
     width: 100%;
     display: flex;
@@ -271,17 +271,25 @@ h4 { /*used for the read more*/
     font-weight: 400;
 }
 
-button {
-    margin-top: 1vh;
-    width: 100vw;
-    max-width: 100%;
+.button {
+    display: inline-block;
+    padding: 10px 80px;
+    color: rgb(255, 255, 255) !important; /*as default font color is black*/
+    font-size: 0.8rem;
     background-color: rgb(54, 121, 46);
-    color: white;
-    padding: 0.5rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 1px;
+    margin-top: 2vh;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
 }
 
-button:hover {
+.button:hover {
     background-color:rgb(25, 25, 25);
+    font-weight: 400;
+    text-decoration: none; /*remove styles of the link and have it operate similar to a button*/
 }
 
 /* -- CONTACT -- */
@@ -481,6 +489,7 @@ footer div {
         text-decoration: none;
         border: none;
         border-radius: 1px;
+        max-width: 300px;
     }
 
     /*article pages*/
