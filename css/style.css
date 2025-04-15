@@ -27,7 +27,7 @@ p {
 
 /* -- NAV -- */
 nav {
-    background-image: url("project2-magazine//images/pexels-nipananlifestyle-com-625927-1581484-optimized.jpg");
+    background-image: url("project2-magazine/images/pexels-nipananlifestyle-com-625927-1581484-optimized.jpg");
     background-size: cover; /*make image fill the space*/
     width: 100%;
     display: flex;
